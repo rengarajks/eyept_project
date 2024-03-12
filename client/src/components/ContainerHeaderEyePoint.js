@@ -10,7 +10,7 @@ const ContainerHeaderEyePoint = () => {
   }, []);
 
   return (
-    <div className=" fixed z-40 top-[14px] left-[36px] w-full h-[52px] overflow-hidden text-left text-7xs text-white font-inter">
+    <div className=" fixed z-40 top-[10px] left-[36px] w-full h-[52px] overflow-hidden text-left text-7xs text-white font-inter">
       <div className="absolute top-[13.5px] left-[31px] bg-gray-500 w-[103px] h-[25px] overflow-hidden">
         <div className="absolute top-[17px] left-[1px] tracking-[0.04em] font-extralight inline-block w-[94px]">
           Eye Tracking Technology

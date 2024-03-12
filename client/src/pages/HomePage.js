@@ -15,7 +15,7 @@ const HomePage = () => {
         alt=""
         src="/divheroblackholemaskgroup@2x.png"
       />
-      <div className="fixed  top-[9px] left-[14px] rounded-31xl [background:linear-gradient(159.65deg,_#3d3d46,_#222228)] [backdrop-filter:blur(35px)] box-border w-[1252px] h-[62px] opacity-[0.2] mix-blend-normal border-[1px] border-solid border-black" />
+      <div className="fixed  top-[px] left-[14px] rounded-31xl [background:linear-gradient(159.65deg,_#3d3d46,_#222228)] [backdrop-filter:blur(35px)] box-border w-[1252px] h-[62px] opacity-[0.2] mix-blend-normal border-[1px] border-solid border-black" />
       <ContainerHeaderEyePoint />
       <div className="absolute top-[232px] left-[266px] w-[783px] h-[184px] text-[40px]">
         <div className="absolute top-[37px] left-[128px] tracking-[0.11em] leading-[55px]">
