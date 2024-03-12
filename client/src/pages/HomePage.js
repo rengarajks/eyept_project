@@ -6,18 +6,16 @@ const HomePage = () => {
   return (
     <div className="w-full relative bg-gray-200 h-[7000px] overflow-hidden text-center text-mini text-white font-poppins">
       <img
-        className="absolute w-[calc(100%_+_52px)] top-[258px] right-[-71px] left-[19px] max-w-full overflow-hidden h-[720px] object-cover"
+        className="absolute w-[calc(100%_+_52px)] top-[370px] right-[-71px] left-[19px] max-w-full overflow-hidden h-[720px] object-cover xl:top-[40vh]"
         alt=""
         src="/image@2x.png"
       />
-      <img
-        className="absolute top-[166px] left-[279px] w-[1440px] h-[810px] object-cover hidden"
-        alt=""
-        src="/divheroblackholemaskgroup@2x.png"
-      />
-      <div className="fixed  top-[px] left-[14px] rounded-31xl [background:linear-gradient(159.65deg,_#3d3d46,_#222228)] [backdrop-filter:blur(35px)] box-border w-[1252px] h-[62px] opacity-[0.2] mix-blend-normal border-[1px] border-solid border-black" />
+
+
+     
       <ContainerHeaderEyePoint />
-      <div className="absolute top-[232px] left-[266px] w-[783px] h-[184px] text-[40px]">
+      
+      <div className="absolute top-[232px] left-[266px] w-[783px] h-[184px] text-[40px]  xl:top-[30vh] xl:left-[55vh] xl:text-[50px] xl:w-[983px]">
         <div className="absolute top-[37px] left-[128px] tracking-[0.11em] leading-[55px]">
           <p className="m-0">Precision Unveiled</p>
           <p className="m-0">
@@ -28,12 +26,15 @@ const HomePage = () => {
           </p>
         </div>
       </div>
-      <div className="absolute top-[386px] left-[256px] text-[11px] leading-[60px] text-left inline-block w-[841px]">
+      <div className="absolute top-[386px] left-[256px] text-[11px] leading-[60px] text-left inline-block w-[841px] xl:text-[13px] xl:w-[1041px] xl:top-[48vh] xl:left-[50vh]  ">
          An interactive application displaying real-time visualization of user’s
         gaze, enhancing user engagement and providing a unique interactive
         experience.
       </div>
-      <div className="absolute top-[618px] left-[189px] rounded-t-41xl rounded-b-none bg-gray-200 box-border w-[912px] h-[497px]  text-left text-xl text-lightslategray border-t-[2px] border-solid border-violet border-r-[2px] border-l-[2px]">
+
+
+
+      <div className="absolute top-[740px] left-[189px] rounded-t-41xl rounded-b-none bg-gray-200 box-border w-[912px] h-[397px]  text-left text-xl text-lightslategray border-t-[2px] border-solid border-violet border-r-[2px] border-l-[2px]  xl:left-[39vh] xl:w-[1150px] xl:h-[360px]">
         <div className="absolute top-[67px] left-[88px] w-[354px] h-12 mix-blend-normal text-whitesmoke font-inter">
           <div className="absolute top-[0px] left-[0px] w-[123px] h-6 flex flex-col items-start justify-start pt-0 pb-[7979.421875px] pr-[0.0001250000059371814px] pl-0 box-border mix-blend-normal">
             <b className="relative leading-[31.2px]">EYEPOINT</b>
@@ -42,7 +43,7 @@ const HomePage = () => {
         <div className="absolute top-[101px] left-[87px] text-mini leading-[20px] font-semibold">
           Track your screen with your eyes via webcam.
         </div>
-        <div className="absolute top-[121px] left-[89px] text-[13px] leading-[28px] inline-block w-[721px] h-[183px]">
+        <div className="absolute top-[121px] left-[89px] text-[13px] leading-[28px] inline-block w-[721px] h-[183px] xl:w-[990px]">
           EyePoint is an advanced eye-tracking software that revolutionizes user
           interaction byenabling precise mapping of a user's gaze onto a
           computer monitor. Utilizing cutting-edge Al algorithms, EyePoint is
