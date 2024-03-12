@@ -63,10 +63,22 @@ const HomePage = () => {
           wide array of applications.
         </div>
       </div>
-      <div className="absolute top-[1345px] left-[489px] text-23xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#f98888,_#e789e9_60%,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center justify-center w-[323px] h-[45px]">
+
+
+
+      
+
+
+      <div >
+
+        
+      <div className="xl:left-[800px] absolute top-[1345px] left-[489px] text-23xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#f98888,_#e789e9_60%,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center justify-center w-[323px] h-[45px]">
         Key Features
       </div>
-      <div className="absolute top-[1453px] left-[304px] w-[274px] h-[318px] text-left text-lg">
+
+
+
+      <div className="xl:left-[140px] absolute top-[1453px] left-[304px] w-[274px] h-[318px] text-left text-lg">
         <div className="absolute top-[35.1px] left-[0px] rounded-70xl shadow-[0px_4px_4px_#fff] box-border w-[348px] h-[320.7px] border-[1px] border-solid border-black" />
         <div className="absolute top-[122.6px] left-[26.5px] leading-[24px] font-semibold flex items-center w-[235.1px]">
           Advance Iris Tracking
@@ -81,7 +93,10 @@ const HomePage = () => {
           src="/neural-network.svg"
         />
       </div>
-      <div className="absolute top-[1451px] left-[704px] w-[274px] h-80 text-left text-lg">
+
+
+      
+      <div className="xl:left-[550px] absolute top-[1451px] left-[704px] w-[274px] h-80 text-left text-lg">
         <div className="absolute top-[37.4px] left-[0px] rounded-70xl shadow-[0px_4px_4px_#fff] box-border w-[348px] h-[320.7px] border-[1px] border-solid border-black" />
         <div className="absolute top-[104.9px] left-[27.5px] leading-[24px] font-semibold flex items-center w-[235.1px] h-[61.1px]">
           Real - time Gaze Mapping
@@ -105,7 +120,10 @@ const HomePage = () => {
           defaultLeft="217.9px"
         />
       </div>
-      <div className="absolute top-[1865px] left-[304px] w-[274px] h-[322px] text-left text-lg">
+
+
+
+      <div className="xl:top-[1451px] xl:left-[980px] absolute top-[1865px] left-[304px] w-[274px] h-[322px] text-left text-lg">
         <div className="absolute top-[39.7px] left-[0px] rounded-70xl shadow-[0px_4px_4px_#fff] box-border w-[348px] h-[320.7px] border-[1px] border-solid border-black" />
         <div className="absolute top-[97.2px] left-[25.5px] leading-[24px] font-semibold flex items-center w-[235.1px] h-[61.1px]">
           Interactive Eye Movement Display
@@ -122,7 +140,9 @@ const HomePage = () => {
           src="/neural-network.svg"
         />
       </div>
-      <div className="absolute top-[1865px] left-[704px] w-[274px] h-[322px] text-left text-lg">
+
+
+      <div className=" xl:top-[1451px] xl:left-[1400px]   absolute top-[1865px] left-[704px] w-[274px] h-[322px] text-left text-lg">
         <div className="absolute top-[38.9px] left-[0px] rounded-70xl shadow-[0px_4px_4px_#fff] box-border w-[348px] h-[320.7px] border-[1px] border-solid border-black" />
         <div className="absolute top-[95.4px] left-[25.5px] leading-[24px] font-semibold flex items-center w-[235.1px] h-[61.1px]">
           Cross-Platform Functionality
@@ -137,44 +157,72 @@ const HomePage = () => {
           src="/multiple-devices@2x.png"
         />
       </div>
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
       <b className="absolute top-[3616px] left-[170px] text-[32px] tracking-[0.02em] text-left">
         <span>{`“Unlock the possibilities with `}</span>
         <span className="text-yellowgreen">Precision</span>
         <span> Gaze Tracking”</span>
       </b>
+
+
+
       <img
-        className="absolute top-[2683px] left-[507px] w-[50px] h-[50px] object-cover"
+        className="xl:top-[2415px] xl:left-[750px] absolute top-[2683px] left-[507px] w-[50px] h-[50px] object-cover"
         alt=""
         src="/webcam@2x.png"
       />
-      <div className="absolute top-[2755px] left-[471px] tracking-[-0.02em] font-light font-rubik flex items-center justify-center w-[111px] h-[61px]">
+      <div className="xl:top-[2470px] xl:left-[720px] absolute top-[2755px] left-[471px] tracking-[-0.02em] font-light font-rubik flex items-center justify-center w-[111px] h-[61px]">
         Webcam
       </div>
+
+
+
       <img
-        className="absolute top-[2665px] left-[488px] rounded-3xs w-[90px] h-[90px]"
+        className=" xl:top-[2400px] xl:left-[730px] absolute top-[2665px] left-[488px] rounded-3xs w-[90px] h-[90px]"
         alt=""
         src="/rectangle-85.svg"
       />
-      <div className="absolute top-[2755px] left-[686px] tracking-[-0.02em] font-light font-rubik flex items-center justify-center w-[111px] h-[61px]">
+      <div className="xl:top-[2470px] xl:left-[1090px] absolute top-[2755px] left-[686px] tracking-[-0.02em] font-light font-rubik flex items-center justify-center w-[111px] h-[61px]">
         Internet
       </div>
+
+      
       <img
-        className="absolute top-[2665px] left-[697px] rounded-3xs w-[90px] h-[90px]"
+        className="xl:top-[2400px] xl:left-[1100px] absolute top-[2665px] left-[697px] rounded-3xs w-[90px] h-[90px]"
         alt=""
         src="/rectangle-85.svg"
       />
       <img
-        className="absolute top-[2683px] left-[717px] w-[50px] h-[50px] object-cover"
+        className="xl:top-[2415px] xl:left-[1120px] absolute top-[2683px] left-[717px] w-[50px] h-[50px] object-cover"
         alt=""
         src="/internet@2x.png"
       />
       <div className="absolute top-[2962px] left-[330px] text-23xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#f98888,_#e789e9_60%,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center justify-center w-[631px]">
         Features
       </div>
-      <div className="absolute top-[2484px] left-[319px] text-23xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#f98888,_#e789e9_60%,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center justify-center w-[631px]">
+      <div className="xl:top-[2200px] xl:left-[650px] absolute top-[2484px] left-[319px] text-23xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#f98888,_#e789e9_60%,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center justify-center w-[631px]">
         System Requirements
       </div>
-      <div className="absolute top-[3283px] left-[78px] leading-[24px] flex items-center justify-center w-[172px] h-[61px]">
+
+
+
+      <div className=" absolute top-[3283px] left-[78px] leading-[24px] flex items-center justify-center w-[172px] h-[61px]">
         Real-time Gaze Visualization
       </div>
       <img

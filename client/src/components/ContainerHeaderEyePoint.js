@@ -1,13 +1,8 @@
-import { useCallback } from "react";
+import {Link} from 'react-router-dom'
 
 const ContainerHeaderEyePoint = () => {
-  const onFunWindowTextClick = useCallback(() => {
-    // Please sync "Fun window page" to the project
-  }, []);
+ 
 
-  const onOnlineTestTextClick = useCallback(() => {
-    // Please sync "Online test page" to the project
-  }, []);
 
   return (
     <>
@@ -18,7 +13,10 @@ const ContainerHeaderEyePoint = () => {
     <div className=" fixed z-40 top-[10px] left-[36px] w-full h-[52px] overflow-hidden text-left text-7xs text-white font-inter     xl:fixed xl:z-40 xl:top-[10px] xl:left-[36px] xl:w-full xl:h-[52px] xl:overflow-hidden xl:text-left xl:text-7xs xl:text-white xl:font-inter">
       
       
-      <div className="absolute top-[13.5px]  left-[5vh] bg-gray-500 w-[103px] h-[25px] overflow-hidden xl:left-[150px]" >
+     
+
+     <Link to={'/'} className='text-white'>
+     <div className="absolute top-[13.5px]  left-[5vh] bg-gray-500 w-[103px] h-[25px] overflow-hidden xl:left-[150px]" >
         <div className="absolute top-[17px] left-[1px] tracking-[0.04em] font-extralight inline-block w-[94px]">
           Eye Tracking Technology
         </div>
@@ -29,21 +27,24 @@ const ContainerHeaderEyePoint = () => {
         </b>
       </div>
 
+     </Link>
 
 
       <div className="absolute top-[14px] left-[445px] flex flex-row items-center justify-start gap-[0px_21px] text-center text-3xs font-poppins   xl:left-[730px] xl:gap-[0px_38px] xl:text-center xl:text-3xs">
-        <b
-          className="w-[85px] relative inline-block shrink-0 cursor-pointer"
-          onClick={onFunWindowTextClick}
-        >
+        
+        <Link to={'/funwindow'} className='text-white'>
+        <b className="w-[85px] relative inline-block shrink-0 cursor-pointer">
           Fun Window
         </b>
-        <b
-          className="w-[78px] relative inline-block shrink-0 cursor-pointer"
-          onClick={onOnlineTestTextClick}
-        >
+        </Link>
+
+
+        <Link to={'/onlinetest'} className='text-white'>
+        <b className="w-[78px] relative inline-block shrink-0 cursor-pointer">
           Online Test
         </b>
+        </Link>
+        
         <b className="relative leading-[24px]">Home</b>
         <b className="w-12 relative leading-[24px] inline-block shrink-0">
           Contact
