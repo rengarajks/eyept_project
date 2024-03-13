@@ -1,12 +1,19 @@
+import { width } from "@mui/system";
 import ContainerHeaderEyePoint from "../components/ContainerHeaderEyePoint";
-import Default from "../components/Default";
 import Property1Default from "../components/Property1Default";
+
+
+
+import CenterFocusWeakIcon from '@mui/icons-material/CenterFocusWeak';
+
 
 const HomePage = () => {
   return (
     <div className="w-full relative bg-gray-200 h-[7000px] overflow-hidden text-center text-mini text-white font-poppins">
+
+
       <img
-        className="absolute w-[calc(100%_+_52px)] top-[370px] right-[-71px] left-[19px] max-w-full overflow-hidden h-[720px] object-cover xl:top-[40vh]"
+        className="absolute w-[calc(100%_+_52px)] top-[370px] right-[-71px] left-[19px] max-w-full overflow-hidden h-[720px] object-cover "
         alt=""
         src="/image@2x.png"
       />
@@ -15,8 +22,8 @@ const HomePage = () => {
      
       <ContainerHeaderEyePoint />
       
-      <div className="absolute top-[232px] left-[266px] w-[783px] h-[184px] text-[40px]  xl:top-[30vh] xl:left-[55vh] xl:text-[50px] xl:w-[983px]">
-        <div className="absolute top-[37px] left-[128px] tracking-[0.11em] leading-[55px]">
+      <div className="flex flex-col relative top-[30vh] text-[50px] ">
+        
           <p className="m-0">Precision Unveiled</p>
           <p className="m-0">
             <span className=" font-semibold !bg-clip-text [background:linear-gradient(90deg,_#f98888,_#e789e9_60%,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
@@ -25,8 +32,11 @@ const HomePage = () => {
             <span className="text-white"> Excellence</span>
           </p>
         </div>
-      </div>
-      <div className="absolute top-[386px] left-[256px] text-[11px] leading-[60px] text-left inline-block w-[841px] xl:text-[13px] xl:w-[1041px] xl:top-[48vh] xl:left-[50vh]  ">
+    
+
+
+      
+      <div className="relative top-[296px]  text-[11px] leading-[60px] inline-block  ">
          An interactive application displaying real-time visualization of user’s
         gaze, enhancing user engagement and providing a unique interactive
         experience.
@@ -34,16 +44,18 @@ const HomePage = () => {
 
 
 
-      <div className="absolute top-[740px] left-[189px] rounded-t-41xl rounded-b-none bg-gray-200 box-border w-[912px] h-[397px]  text-left text-xl text-lightslategray border-t-[2px] border-solid border-violet border-r-[2px] border-l-[2px]  xl:left-[39vh] xl:w-[1150px] xl:h-[360px]">
-        <div className="absolute top-[67px] left-[88px] w-[354px] h-12 mix-blend-normal text-whitesmoke font-inter">
-          <div className="absolute top-[0px] left-[0px] w-[123px] h-6 flex flex-col items-start justify-start pt-0 pb-[7979.421875px] pr-[0.0001250000059371814px] pl-0 box-border mix-blend-normal">
-            <b className="relative leading-[31.2px]">EYEPOINT</b>
+      <div className=" absolute top-[740px] p-14 px-28 rounded-t-41xl rounded-b-none bg-gray-200 box-border mx-80 h-[397px]  text-left text-xl text-lightslategray border-t-[2px] border-solid border-violet border-r-[2px] border-l-[2px]  ">
+        
+        <div className="  mix-blend-normal text-whitesmoke font-inter">
+         
+            <b className=" leading-[31.2px]">EYEPOINT</b>
           </div>
-        </div>
-        <div className="absolute top-[101px] left-[87px] text-mini leading-[20px] font-semibold">
+      
+
+        <div className="text-mini leading-[20px] font-semibold">
           Track your screen with your eyes via webcam.
         </div>
-        <div className="absolute top-[121px] left-[89px] text-[13px] leading-[28px] inline-block w-[721px] h-[183px] xl:w-[990px]">
+        <div className="text-[13px] leading-[28px] inline-block   h-[183px] ">
           EyePoint is an advanced eye-tracking software that revolutionizes user
           interaction byenabling precise mapping of a user's gaze onto a
           computer monitor. Utilizing cutting-edge Al algorithms, EyePoint is
@@ -69,94 +81,168 @@ const HomePage = () => {
       
 
 
-      <div >
+      <div className="">
 
         
-      <div className="xl:left-[800px] absolute top-[1345px] left-[489px] text-23xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#f98888,_#e789e9_60%,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center justify-center w-[323px] h-[45px]">
+      <div className=" relative top-[1200px]  text-23xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#f98888,_#e789e9_60%,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] ">
+        
+        <div>
         Key Features
+        </div>
       </div>
 
 
+      <div className="relative top-[1253px] left-[2%] px-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg: xl:grid-cols-2  2xl:grid-cols-4 2xl:gap-4 2xl:mr-80    xl:gap-20 lg:gap-20 md:gap-20 sm:gap-20 xl:left-[10%] lg:left-[10%] md:left-[5%] sm:left-[20%]">
 
-      <div className="xl:left-[140px] absolute top-[1453px] left-[304px] w-[274px] h-[318px] text-left text-lg">
-        <div className="absolute top-[35.1px] left-[0px] rounded-70xl shadow-[0px_4px_4px_#fff] box-border w-[348px] h-[320.7px] border-[1px] border-solid border-black" />
-        <div className="absolute top-[122.6px] left-[26.5px] leading-[24px] font-semibold flex items-center w-[235.1px]">
-          Advance Iris Tracking
-        </div>
-        <div className="absolute top-[177.2px] left-[25.9px] text-mini leading-[30px] font-light text-gray-300 flex items-center w-[242.2px] h-[114.6px]">
-          AI Engine powers the eye tracking software to understand and respond
+
+
+
+
+
+
+
+
+
+      <div className="  w-[274px] h-[318px] text-left text-lg rounded-70xl shadow-[0px_4px_4px_#fff] box-border w-[348px] h-[320.7px] border-[1px] border-solid border-black p-8 pt-20   hover:opacity-90 hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500  hover:transition hover:duration-[1s] hover:ease-in-out">
+
+         <img className="relative w-[30%] h-[40%] bottom-[48%] right-[0] max-w-full overflow-hidden max-h-full" alt="" src="/neural-network.svg"/>
+
+
+          <div className="relative bottom-[40%]">
+           <div className=" left-[26.5px] leading-[24px] font-semibold flex items-center w-[235.1px]">
+             Advance Iris Tracking
+              </div>
+
+  
+  
+           <div className=" left-[25.9px] text-mini leading-[30px] font-light text-gray-300 flex items-center w-[242.2px] mt-6 h-[114.6px]">
+           AI Engine powers the eye tracking software to understand and respond
           to users' gaze behavior with accuracy.
-        </div>
-        <img
-          className="absolute h-[22.01%] w-[25.55%] top-[11.01%] right-[64.6%] bottom-[66.98%] left-[9.85%] max-w-full overflow-hidden max-h-full"
-          alt=""
-          src="/neural-network.svg"
-        />
+           </div> </div>
+      
+
+           </div>
+
+
+
+
+
+
+
+           <div className="  w-[274px] h-[318px] text-left text-lg rounded-70xl shadow-[0px_4px_4px_#fff] box-border w-[348px] h-[320.7px] border-[1px] border-solid border-black p-8 pt-20   hover:opacity-90 hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500  hover:transition hover:duration-[1s] hover:ease-in-out">
+
+         <img className="relative w-[30%] h-[40%] bottom-[48%] right-[0] max-w-full overflow-hidden max-h-full" alt="" src="/vector.svg"/>
+
+
+          <div className="relative bottom-[40%]">
+           <div className=" left-[26.5px] leading-[24px] font-semibold flex items-center w-[235.1px]">
+           Real - time Gaze Mapping
+              </div>
+
+  
+  
+           <div className=" left-[25.9px] text-mini leading-[30px] font-light text-gray-300 flex items-center w-[242.2px] mt-6 h-[114.6px]">
+           Capable of calculating the exact point on the monitor being looked at
+          within predefined x,y axis boundaries
+           </div> </div>
+      
+
+           </div>
+
+
+
+
+
+
+
+
+
+           <div className="  w-[274px] h-[318px] text-left text-lg rounded-70xl shadow-[0px_4px_4px_#fff] box-border w-[348px] h-[320.7px] border-[1px] border-solid border-black p-8 pt-20   hover:opacity-90 hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500  hover:transition hover:duration-[1s] hover:ease-in-out">
+
+<img className="relative w-[30%] h-[40%] bottom-[48%] right-[0] max-w-full overflow-hidden max-h-full" alt="" src="/neural-network.svg"/>
+
+
+ <div className="relative bottom-[40%]">
+  <div className=" left-[26.5px] leading-[24px] font-semibold flex items-center w-[235.1px]">
+  Interactive Eye Movement Display
+     </div>
+
+
+
+  <div className=" left-[25.9px] text-mini leading-[30px] font-light text-gray-300 flex items-center w-[242.2px] mt-6 h-[114.6px]">
+  Provides an engaging and dynamic display feature for visualizing eye tracking in 
+real - time
+  </div> </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div className="  w-[274px] h-[318px] text-left text-lg rounded-70xl shadow-[0px_4px_4px_#fff] box-border w-[348px] h-[320.7px] border-[1px] border-solid border-black p-8 pt-20   hover:opacity-90 hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500  hover:transition hover:duration-[1s] hover:ease-in-out">
+
+<img className="relative w-[30%] h-[40%] bottom-[48%] right-[0] max-w-full overflow-hidden max-h-full" alt="" src="/multiple-devices@2x.png"/>
+
+
+ <div className="relative bottom-[40%]">
+  <div className=" left-[26.5px] leading-[24px] font-semibold flex items-center w-[235.1px]">
+  Cross-Platform Functionality
+     </div>
+
+
+
+  <div className=" left-[25.9px] text-mini leading-[30px] font-light text-gray-300 flex items-center w-[242.2px] mt-6 h-[114.6px]">
+  Ensures compatibility with various devices and operating systems,
+          extending usability
+  </div> </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
       </div>
 
 
       
-      <div className="xl:left-[550px] absolute top-[1451px] left-[704px] w-[274px] h-80 text-left text-lg">
-        <div className="absolute top-[37.4px] left-[0px] rounded-70xl shadow-[0px_4px_4px_#fff] box-border w-[348px] h-[320.7px] border-[1px] border-solid border-black" />
-        <div className="absolute top-[104.9px] left-[27.5px] leading-[24px] font-semibold flex items-center w-[235.1px] h-[61.1px]">
-          Real - time Gaze Mapping
-        </div>
-        <div className="absolute top-[179.5px] left-[25.9px] text-mini leading-[30px] font-light text-gray-300 flex items-center w-[232.8px] h-[114.6px]">
-          Capable of calculating the exact point on the monitor being looked at
-          within predefined x,y axis boundaries
-        </div>
-        <img
-          className="absolute h-[21.88%] w-[25.55%] top-[9.38%] right-[64.23%] bottom-[68.75%] left-[10.22%] max-w-full overflow-hidden max-h-full"
-          alt=""
-          src="/vector.svg"
-        />
-        <Default
-          itemNumber="02"
-          showDiv={false}
-          defaultWidth="130.1px"
-          defaultHeight="75.6px"
-          defaultPosition="absolute"
-          defaultTop="265px"
-          defaultLeft="217.9px"
-        />
-      </div>
 
 
 
-      <div className="xl:top-[1451px] xl:left-[980px] absolute top-[1865px] left-[304px] w-[274px] h-[322px] text-left text-lg">
-        <div className="absolute top-[39.7px] left-[0px] rounded-70xl shadow-[0px_4px_4px_#fff] box-border w-[348px] h-[320.7px] border-[1px] border-solid border-black" />
-        <div className="absolute top-[97.2px] left-[25.5px] leading-[24px] font-semibold flex items-center w-[235.1px] h-[61.1px]">
-          Interactive Eye Movement Display
-        </div>
-        <div className="absolute top-[181.8px] left-[25.9px] text-mini leading-[30px] font-light text-gray-300 flex items-center w-[242.2px] h-[91.6px]">
-          <span className="w-full">
-            <p className="m-0">{`Provides an engaging and dynamic display feature for visualizing eye tracking in `}</p>
-            <p className="m-0">real - time</p>
-          </span>
-        </div>
-        <img
-          className="absolute h-[21.74%] w-[25.55%] top-[8.39%] right-[64.96%] bottom-[69.88%] left-[9.49%] max-w-full overflow-hidden max-h-full"
-          alt=""
-          src="/neural-network.svg"
-        />
-      </div>
+      
 
 
-      <div className=" xl:top-[1451px] xl:left-[1400px]   absolute top-[1865px] left-[704px] w-[274px] h-[322px] text-left text-lg">
-        <div className="absolute top-[38.9px] left-[0px] rounded-70xl shadow-[0px_4px_4px_#fff] box-border w-[348px] h-[320.7px] border-[1px] border-solid border-black" />
-        <div className="absolute top-[95.4px] left-[25.5px] leading-[24px] font-semibold flex items-center w-[235.1px] h-[61.1px]">
-          Cross-Platform Functionality
-        </div>
-        <div className="absolute top-[167px] left-[26px] text-mini leading-[30px] font-light text-gray-300 flex items-center w-[232.8px] h-[91.6px]">
-          Ensures compatibility with various devices and operating systems,
-          extending usability
-        </div>
-        <img
-          className="absolute top-[25px] left-[26px] w-[70px] h-[70px] object-cover"
-          alt=""
-          src="/multiple-devices@2x.png"
-        />
-      </div>
+
+      
+      
 
 
 
@@ -174,135 +260,30 @@ const HomePage = () => {
 
 
 
-      <b className="absolute top-[3616px] left-[170px] text-[32px] tracking-[0.02em] text-left">
+      <div className="absolute top-[2600px]  w-full flex justify-between items-center">
+      
+      <div className="mx-[50vh]">
+      <b className="  text-[34px]">
         <span>{`“Unlock the possibilities with `}</span>
         <span className="text-yellowgreen">Precision</span>
         <span> Gaze Tracking”</span>
       </b>
-
-
-
-      <img
-        className="xl:top-[2415px] xl:left-[750px] absolute top-[2683px] left-[507px] w-[50px] h-[50px] object-cover"
-        alt=""
-        src="/webcam@2x.png"
-      />
-      <div className="xl:top-[2470px] xl:left-[720px] absolute top-[2755px] left-[471px] tracking-[-0.02em] font-light font-rubik flex items-center justify-center w-[111px] h-[61px]">
-        Webcam
+      </div>
       </div>
 
 
-
-      <img
-        className=" xl:top-[2400px] xl:left-[730px] absolute top-[2665px] left-[488px] rounded-3xs w-[90px] h-[90px]"
-        alt=""
-        src="/rectangle-85.svg"
-      />
-      <div className="xl:top-[2470px] xl:left-[1090px] absolute top-[2755px] left-[686px] tracking-[-0.02em] font-light font-rubik flex items-center justify-center w-[111px] h-[61px]">
-        Internet
-      </div>
 
       
-      <img
-        className="xl:top-[2400px] xl:left-[1100px] absolute top-[2665px] left-[697px] rounded-3xs w-[90px] h-[90px]"
-        alt=""
-        src="/rectangle-85.svg"
-      />
-      <img
-        className="xl:top-[2415px] xl:left-[1120px] absolute top-[2683px] left-[717px] w-[50px] h-[50px] object-cover"
-        alt=""
-        src="/internet@2x.png"
-      />
-      <div className="absolute top-[2962px] left-[330px] text-23xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#f98888,_#e789e9_60%,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center justify-center w-[631px]">
-        Features
-      </div>
-      <div className="xl:top-[2200px] xl:left-[650px] absolute top-[2484px] left-[319px] text-23xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#f98888,_#e789e9_60%,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center justify-center w-[631px]">
-        System Requirements
-      </div>
 
 
+      
 
-      <div className=" absolute top-[3283px] left-[78px] leading-[24px] flex items-center justify-center w-[172px] h-[61px]">
-        Real-time Gaze Visualization
-      </div>
-      <img
-        className="absolute top-[3186px] left-[112px] rounded-3xs w-[90px] h-[90px]"
-        alt=""
-        src="/rectangle-85.svg"
-      />
-      <img
-        className="absolute top-[3186px] left-[692px] rounded-3xs w-[90px] h-[90px]"
-        alt=""
-        src="/rectangle-85.svg"
-      />
-      <img
-        className="absolute top-[3181px] left-[999px] rounded-3xs w-[90px] h-[90px]"
-        alt=""
-        src="/rectangle-85.svg"
-      />
-      <img
-        className="absolute top-[3181px] left-[864px] rounded-3xs w-[90px] h-[90px]"
-        alt=""
-        src="/rectangle-85.svg"
-      />
-      <img
-        className="absolute top-[3186px] left-[510px] rounded-3xs w-[90px] h-[90px]"
-        alt=""
-        src="/rectangle-85.svg"
-      />
-      <div className="absolute top-[3284px] left-[286px] leading-[24px] flex items-center justify-center w-[203px] h-[61px]">
-        Pixel Highlighting Animation
-      </div>
-      <div className="absolute top-[3292px] left-[939px] leading-[24px] flex items-center justify-center w-[203px] h-[61px]">
-        Compatibility with Different Screen Resolutions
-      </div>
-      <div className="absolute top-[3283px] left-[841px] leading-[24px] flex items-center justify-center w-[157px] h-[61px]">
-        Free head movements
-      </div>
-      <div className="absolute top-[3284px] left-[644px] leading-[24px] flex items-center justify-center w-[203px] h-[61px]">
-        User-Customizable Fun Window Themes
-      </div>
-      <div className="absolute top-[3296px] left-[475px] leading-[24px] flex items-center w-[157px] h-[61px]">
-        <span className="w-full">
-          <p className="m-0">Interactive Calibration Check</p>
-        </span>
-      </div>
-      <img
-        className="absolute top-[3186px] left-[340px] rounded-3xs w-[90px] h-[90px]"
-        alt=""
-        src="/rectangle-85.svg"
-      />
-      <img
-        className="absolute top-[3201px] left-[132px] w-[50px] h-[50px] object-cover"
-        alt=""
-        src="/look@2x.png"
-      />
-      <img
-        className="absolute top-[3206px] left-[360px] w-[50px] h-[50px] object-cover"
-        alt=""
-        src="/marker-pen@2x.png"
-      />
-      <img
-        className="absolute top-[3206px] left-[528px] w-[50px] h-[50px] object-cover"
-        alt=""
-        src="/my-location@2x.png"
-      />
-      <img
-        className="absolute top-[3206px] left-[708px] w-[50px] h-[50px] object-cover"
-        alt=""
-        src="/paint-roller@2x.png"
-      />
-      <img
-        className="absolute top-[3196px] left-[882px] w-[50px] h-[50px] object-cover"
-        alt=""
-        src="/human-head@2x.png"
-      />
-      <img
-        className="absolute top-[3198px] left-[1019px] w-[50px] h-[50px] object-cover"
-        alt=""
-        src="/monitor@2x.png"
-      />
-      <div className="absolute top-[4079px] left-[309px] w-[744px] h-[837px] text-left text-6xl">
+
+      
+
+ 
+      
+      <div className="absolute top-[3079px] 2xl:left-[65vh] xl:left-[50vh] lg:left-[30vh]  md:left-[15vh] w-[744px] h-[837px] text-left text-6xl">
         <img
           className="absolute h-full w-full top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full object-cover"
           alt=""
@@ -338,6 +319,8 @@ const HomePage = () => {
           alt=""
           src="/divlazybackgroundimagemaskgroup@2x.png"
         />
+
+
         <div className="absolute top-[127px] left-[-21px] w-[794px] h-[583px]">
           <div className="absolute top-[0px] left-[420px] w-[372px] flex flex-col items-start justify-start gap-[9px_0px]">
             <div className="w-[50px] relative h-[50px]">
@@ -395,18 +378,18 @@ const HomePage = () => {
       <div className="absolute top-[6223px] left-[220px] text-41xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(180deg,_#f98888,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center justify-center w-[826px]">
         Embark on a journey of discovery in Eye Tracking Solutions with us!
       </div>
-      <Property1Default
-        property1DefaultWidth="886px"
-        property1DefaultPosition="absolute"
-        property1DefaultTop="5217px"
-        property1DefaultLeft="190px"
-        simplyExploreTheContainerFontSize="60px"
-      />
-      <img
-        className="absolute top-[5624px] left-[339px] rounded-31xl w-[588px] h-[351px]"
-        alt=""
-        src="/video.svg"
-      />
+
+
+      <div className=" relative top-[3700px]  text-23xl leading-[130px] font-semibold  ">
+        
+        <div >
+        <span className="opacity-25 hover:opacity-100 ">Simply explore the demo window to see the Fun Window in  </span>
+
+        <span className="font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#f98888,_#e789e9_60%,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] "> Action.</span>
+        </div>
+      </div>
+      
+      
       <div className="absolute top-[6923px] left-[9px] bg-gray-500 w-[1200px] h-[70px] overflow-hidden text-left text-xs text-whitesmoke font-inter">
         <div className="absolute top-[38px] left-[782px] w-[141px] h-8 flex flex-row items-start justify-start py-0 pr-[1130px] pl-0 box-border mix-blend-normal">
           <div className="w-[47px] rounded box-border h-8 flex flex-col items-center justify-center mix-blend-normal border-r-[1px] border-solid border-gray-100">
