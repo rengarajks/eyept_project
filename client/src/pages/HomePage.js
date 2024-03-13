@@ -375,7 +375,7 @@ real - time
           </div>
         </div>
       </div>
-      <div className="absolute top-[6223px] left-[220px] text-41xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(180deg,_#f98888,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center justify-center w-[826px]">
+      <div className="absolute top-[5100px] left-[55vh] text-41xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(180deg,_#f98888,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center justify-center w-[826px]">
         Embark on a journey of discovery in Eye Tracking Solutions with us!
       </div>
 
