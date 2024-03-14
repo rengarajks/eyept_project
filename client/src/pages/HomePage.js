@@ -1,40 +1,57 @@
 
 import ContainerHeaderEyePoint from "../components/ContainerHeaderEyePoint";
-import Property1Default from "../components/Property1Default";
+import StarsCanvas from '../components/StarBackground.tsx'
 
 import Footer from '../components/Footer'
 
 
 const HomePage = () => {
   return (
+
+    <>
+    <div className=" flex flex-col h-full w-full " >
+    <video
+      autoPlay
+      muted
+      loop
+      className="rotate-180 absolute top-[-340px]  h-full w-full left-0 z-[1] object-cover "
+    >
+      <source src="/blackhole.webm" type="video/webm" />
+    </video>
+  
+  </div>
     <div className="w-full relative bg-gray-200 h-[6300px] overflow-hidden text-center text-mini text-white font-poppins">
 
+   
 
-      <img
-        className="absolute w-[calc(100%_+_52px)] top-[370px] right-[-71px] left-[19px] max-w-full overflow-hidden h-[720px] object-cover "
-        alt=""
-        src="/image@2x.png"
-      />
+
+      
 
 
      
       <ContainerHeaderEyePoint />
       
-      <div className="flex flex-col relative top-[30vh] text-[50px] ">
+
+      <div class="">
+       <h1 class="  text-black overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl text-white font-bold">Hello World</h1>
+      </div>
+
+      <div className="flex flex-col relative top-[30vh] text-[50px] z-40  ">
         
-          <p className="m-0">Precision Unveiled</p>
+          <p className="m-0 ">Precision Unveiled</p>
           <p className="m-0">
             <span className=" font-semibold !bg-clip-text [background:linear-gradient(90deg,_#f98888,_#e789e9_60%,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
               Eye Tracking
             </span>
             <span className="text-white"> Excellence</span>
           </p>
+          
         </div>
     
 
 
       
-      <div className="relative top-[296px]  text-[11px] leading-[60px] inline-block  ">
+      <div className="relative top-[296px]  text-[11px] leading-[60px] inline-block z-40 ">
          An interactive application displaying real-time visualization of user’s
         gaze, enhancing user engagement and providing a unique interactive
         experience.
@@ -42,7 +59,7 @@ const HomePage = () => {
 
 
 
-      <div className=" absolute top-[740px] p-14 px-28 rounded-t-41xl rounded-b-none bg-gray-200 box-border mx-80 h-[397px]  text-left text-xl text-lightslategray border-t-[2px] border-solid border-violet border-r-[2px] border-l-[2px]  ">
+      <div className="z-[10] absolute top-[740px] p-14 px-28 rounded-t-41xl rounded-b-none  box-border mx-80 h-[397px]  text-left text-xl text-lightslategray border-t-[2px] border-solid border-violet border-r-[2px] border-l-[2px]  ">
         
         <div className="  mix-blend-normal text-whitesmoke font-inter">
          
@@ -82,7 +99,7 @@ const HomePage = () => {
       <div className="">
 
         
-      <div className=" relative top-[1200px]  text-23xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#f98888,_#e789e9_60%,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] ">
+      <div className="z-[10] relative top-[1200px]  text-23xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#f98888,_#e789e9_60%,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] ">
         
         <div>
         Key Features
@@ -90,7 +107,7 @@ const HomePage = () => {
       </div>
 
 
-      <div className="relative top-[1253px] left-[2%] px-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg: xl:grid-cols-2  2xl:grid-cols-4 2xl:gap-4 2xl:mr-80    xl:gap-20 lg:gap-20 md:gap-20 sm:gap-20 xl:left-[10%] lg:left-[10%] md:left-[5%] sm:left-[20%]">
+      <div className="z-[10] relative top-[1253px] left-[2%] px-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg: xl:grid-cols-2  2xl:grid-cols-4 2xl:gap-4 2xl:mr-80    xl:gap-20 lg:gap-20 md:gap-20 sm:gap-20 xl:left-[10%] lg:left-[10%] md:left-[5%] sm:left-[20%]">
 
 
 
@@ -258,9 +275,9 @@ real - time
 
 
 
-      <div className="absolute top-[2600px]  w-full flex justify-between items-center">
+      <div className="absolute top-[2600px]  w-full flex justify-between items-center z-[10] ">
       
-      <div className="mx-[50vh]">
+      <div className="mx-[50vh] opacity-100 hover:opacity-50">
       <b className="  text-[34px]">
         <span>{`“Unlock the possibilities with `}</span>
         <span className="text-yellowgreen">Precision</span>
@@ -319,10 +336,11 @@ real - time
         />
 
 
-        <div className="absolute top-[127px] left-[-21px] w-[794px] h-[583px]">
-          <div className="absolute top-[0px] left-[420px] w-[372px] flex flex-col items-start justify-start gap-[9px_0px]">
+        <div className="absolute top-[127px] left-[-21px] w-[794px] h-[583px] opacity-100  z-[10]">
+
+          <div className="hover:opacity-50 absolute top-[0px] left-[420px] w-[372px] flex flex-col items-start justify-start gap-[9px_0px]">
             <div className="w-[50px] relative h-[50px]">
-              <div className="absolute top-[0px] left-[0px] rounded-[50%] [background:linear-gradient(125.84deg,_#ff9898,_#8054ff)] w-[50px] h-[50px]" />
+              <div className=" absolute top-[0px] left-[0px] rounded-[50%] [background:linear-gradient(125.84deg,_#ff9898,_#8054ff)] w-[50px] h-[50px]" />
               <div className="absolute top-[20px] left-[calc(50%_-_5.4px)] leading-[20px] font-black flex items-center w-2.5 h-2.5">
                 1
               </div>
@@ -335,7 +353,9 @@ real - time
               iris movement.
             </div>
           </div>
-          <div className="absolute top-[173px] left-[0px] w-[370px] h-[164px] text-mini">
+
+
+          <div className="hover:opacity-50 absolute top-[173px] left-[0px] w-[370px] h-[164px] text-mini">
             <div className="absolute top-[95px] left-[0px] font-light text-center inline-block w-[370px]">
               The collected data is processed by advanced algorithms and
               software to interpret the user's gaze behavior.
@@ -350,7 +370,10 @@ real - time
               </div>
             </div>
           </div>
-          <div className="absolute top-[351px] left-[422px] w-[372px] flex flex-col items-start justify-start gap-[9px_0px]">
+
+
+
+          <div className="hover:opacity-50 absolute top-[351px] left-[422px] w-[372px] flex flex-col items-start justify-start gap-[9px_0px]">
             <div className="w-[50px] relative h-[50px]">
               <div className="absolute top-[0px] left-[0px] rounded-[50%] [background:linear-gradient(125.84deg,_#ff9898,_#8054ff)] w-[50px] h-[50px]" />
               <div className="absolute top-[15px] left-[calc(50%_-_7.4px)] leading-[20px] font-black">
@@ -368,13 +391,13 @@ real - time
             alt=""
             src="/group-218.svg"
           />
-          <div className="absolute top-[-190px] left-[104px] text-61xl font-black text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#d16ba5,_#86a8e7_50.5%,_#5ffbf1_99.08%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] [text-shadow:1px_0_0_#000,_0_1px_0_#000,_-1px_0_0_#000,_0_-1px_0_#000]">
+          <div className="absolute top-[-190px] left-[104px] text-61xl font-bold  !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#d16ba5,_#86a8e7_50.5%,_#5ffbf1_99.08%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] ">
             How it Works
           </div>
         </div>
       </div>
 
-      <div className="relative top-[4600px]   p-12 xl:px-82">
+      <div className="z-[10] relative top-[4600px]   p-12 xl:px-82 hover:opacity-50">
       <div className="xl:w-1/2 2xl:w-1/2 lg:ml-[10vh] xl:ml-[50vh] 2xl:ml-[50vh] text-41xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(180deg,_#f98888,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] ">
         Embark on a journey of discovery in Eye Tracking Solutions with us!
       </div>
@@ -383,7 +406,7 @@ real - time
       
 
 
-      <div className=" relative top-[3500px]  text-23xl leading-[130px] font-semibold  ">
+      <div className=" relative top-[3500px]  text-23xl leading-[130px] font-semibold  z-[10]">
         
         <div >
         <span className="opacity-25 hover:opacity-100 ">Simply explore the demo window to see the Fun Window in  </span>
@@ -392,10 +415,16 @@ real - time
         </div>
       </div>
       
+      
       <Footer/>
       
      
     </div>
+
+    
+    <StarsCanvas/>
+    </>
+
   );
 };
 

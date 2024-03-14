@@ -1,12 +1,13 @@
 import React from 'react'
 import ContainerHeaderEyePoint from '../components/ContainerHeaderEyePoint'
+import StarsCanvas from '../components/StarBackground.tsx'
 
 function Funwindow() {
   return (
 <div className="w-full bg-gray-200 h-[100vh] overflow-hidden text-left text-xs text-white font-inter">
       
       
-      
+      <StarsCanvas/>
       <ContainerHeaderEyePoint/>
       <div className="absolute top-[499px] left-[178px] leading-[60px] font-poppins inline-block w-[925px]">
          An interactive application displaying real-time visualization of user’s

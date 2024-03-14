@@ -8,14 +8,14 @@ const ContainerHeaderEyePoint = () => {
     <>
     
 
-    <div className="fixed z-20 right-[10px] left-[2px] top-[14px] rounded-31xl [background:linear-gradient(159.65deg,_#3d3d46,_#222228)] [backdrop-filter:blur(35px)] box-border w-[1252px] h-[62px] opacity-[0.2] mix-blend-normal border-[1px] border-solid border-black xl:w-full " />
+    {/* <div className="fixed z-20 right-[10px] left-[2px] top-[14px] rounded-31xl [background:linear-gradient(159.65deg,_#3d3d46,_#222228)] [backdrop-filter:blur(35px)] box-border w-[1252px] h-[62px] opacity-[0.2] mix-blend-normal border-[1px] border-solid border-black xl:w-full " /> */}
 
-    <div className="flex justify-between items-center fixed z-40 top-[0] mt-4 w-full h-[52px] overflow-hidden  text-7xs text-white font-inter     ">
+    <div className="shadow-lg  shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-sm  backdrop-blur-md border border-white border-opacity-50 flex justify-between items-center fixed z-40 top-[0] w-full h-[64px] overflow-hidden  text-7xs text-white font-inter     ">
       
       
      
 
-     <div className='p-6'>
+     <div className='p-6  '>
      <Link to={'/'} className='text-white'>
      <div className=" w-[103px] " >
        
@@ -36,7 +36,7 @@ const ContainerHeaderEyePoint = () => {
 
 
 
-      <div className="flex flex-row items-center justify-start gap-[0px_26px] text-center text-3xs font-poppins   ">
+      <div className="flex flex-row items-center justify-start gap-[0px_26px] text-center text-xs font-poppins   border-[#7042f861] bg-[#0300145e] p-3 px-8 rounded-full ">
         
         <Link to={'/funwindow'} className='text-white'>
         <b className="inline-block shrink-0 cursor-pointer">
