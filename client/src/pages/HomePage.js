@@ -1,15 +1,13 @@
-import { width } from "@mui/system";
+
 import ContainerHeaderEyePoint from "../components/ContainerHeaderEyePoint";
 import Property1Default from "../components/Property1Default";
 
-
-
-import CenterFocusWeakIcon from '@mui/icons-material/CenterFocusWeak';
+import Footer from '../components/Footer'
 
 
 const HomePage = () => {
   return (
-    <div className="w-full relative bg-gray-200 h-[7000px] overflow-hidden text-center text-mini text-white font-poppins">
+    <div className="w-full relative bg-gray-200 h-[6300px] overflow-hidden text-center text-mini text-white font-poppins">
 
 
       <img
@@ -375,12 +373,17 @@ real - time
           </div>
         </div>
       </div>
-      <div className="absolute top-[5100px] left-[55vh] text-41xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(180deg,_#f98888,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center justify-center w-[826px]">
+
+      <div className="relative top-[4600px]   p-12 xl:px-82">
+      <div className="xl:w-1/2 2xl:w-1/2 lg:ml-[10vh] xl:ml-[50vh] 2xl:ml-[50vh] text-41xl leading-[130px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(180deg,_#f98888,_#845cf5)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] ">
         Embark on a journey of discovery in Eye Tracking Solutions with us!
       </div>
 
+      </div>
+      
 
-      <div className=" relative top-[3700px]  text-23xl leading-[130px] font-semibold  ">
+
+      <div className=" relative top-[3500px]  text-23xl leading-[130px] font-semibold  ">
         
         <div >
         <span className="opacity-25 hover:opacity-100 ">Simply explore the demo window to see the Fun Window in  </span>
@@ -389,54 +392,9 @@ real - time
         </div>
       </div>
       
+      <Footer/>
       
-      <div className="absolute top-[6923px] left-[9px] bg-gray-500 w-[1200px] h-[70px] overflow-hidden text-left text-xs text-whitesmoke font-inter">
-        <div className="absolute top-[38px] left-[782px] w-[141px] h-8 flex flex-row items-start justify-start py-0 pr-[1130px] pl-0 box-border mix-blend-normal">
-          <div className="w-[47px] rounded box-border h-8 flex flex-col items-center justify-center mix-blend-normal border-r-[1px] border-solid border-gray-100">
-            <img
-              className="w-[22px] relative h-[22px] overflow-hidden shrink-0 mix-blend-normal"
-              alt=""
-              src="/icon.svg"
-            />
-          </div>
-          <img
-            className="w-[47px] relative rounded h-8 mix-blend-normal"
-            alt=""
-            src="/link-flex.svg"
-          />
-          <img
-            className="w-[47px] relative rounded h-8 mix-blend-normal"
-            alt=""
-            src="/link-flex.svg"
-          />
-        </div>
-        <div className="absolute top-[19px] left-[935px] w-60 h-[46.8px] mix-blend-normal">
-          <div className="absolute top-[30.4px] left-[149.9px] rounded w-[90px] flex flex-col items-start justify-center mix-blend-normal">
-            <div className="relative leading-[15.4px] opacity-[0.36]">
-              Privacy Policy
-            </div>
-          </div>
-          <div className="absolute top-[30.4px] left-[9.1px] rounded w-[109px] flex flex-col items-start justify-center mix-blend-normal">
-            <div className="relative leading-[15.4px] opacity-[0.36]">
-              Terms of Service
-            </div>
-          </div>
-          <div className="absolute top-[-1px] left-[207px] rounded w-[33px] flex flex-col items-start justify-center mix-blend-normal">
-            <div className="relative leading-[15.4px] opacity-[0.36]">Docs</div>
-          </div>
-          <div className="absolute top-[-1px] left-[104.3px] rounded w-[71px] flex flex-col items-start justify-center mix-blend-normal">
-            <div className="relative leading-[15.4px] opacity-[0.36]">
-              Changelog
-            </div>
-          </div>
-          <div className="absolute top-[-1px] left-[34.5px] rounded w-[38px] flex flex-col items-start justify-center mix-blend-normal">
-            <div className="relative leading-[15.4px] opacity-[0.36]">Home</div>
-          </div>
-        </div>
-        <div className="absolute top-[37px] left-[7px] leading-[20px] font-poppins text-white whitespace-pre-wrap opacity-[0.36]">
-          Copyright EyePoint © All rights reserved.
-        </div>
-      </div>
+     
     </div>
   );
 };
