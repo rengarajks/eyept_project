@@ -5,7 +5,7 @@ import StarsCanvas from '../components/StarBackground.tsx'
 import Footer from '../components/Footer'
 
 
-const HomePage = () => {
+const Funwindowfinalpage = () => {
   return (
 
     <>
@@ -426,4 +426,4 @@ real - time
   );
 };
 
-export default HomePage;
+export default Funwindowfinalpage;

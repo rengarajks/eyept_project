@@ -22,3 +22,15 @@ body {
     width: 100%;
   }
 }
+
+
+#cursor {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: var(--color-aquamarine);
+  border-radius: 50%;
+  pointer-events: none; /* Make sure cursor doesn't interfere with pointer events */
+  transition: transform 0.2s ease;
+   /* Add transition for smooth movement */
+}
