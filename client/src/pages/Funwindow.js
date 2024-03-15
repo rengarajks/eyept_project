@@ -5,14 +5,23 @@ import { Link } from 'react-router-dom'
 
 function Funwindow() {
   return (
-<div className="w-full bg-gray-200 h-[100vh] overflow-hidden text-left text-xs text-white font-inter">
+<div className="w-full bg-gray-200 h-[100vh] overflow-hidden text-left text-xs text-white font-inter  ">
       
       
       <StarsCanvas/>
       <ContainerHeaderEyePoint/>
 
-      <div className=' flex flex-col items-center mt-[35vh]'>
-      <div className="text-[65px] font-semibold text-gainsboro z-[20]">
+     
+
+
+
+    
+      <div className="flex flex-col items-center pt-5  mt-20">
+      
+      <main className="z-10 p-10 mt-16 max-w-full rounded-3xl border border-black border-solid bg-blend-normal w-[1086px] max-md:px-5 max-md:mt-10 bg-slate-950">
+      
+      <div className='flex flex-col items-center p-24'>
+      <div className="text-[65px] font-semibold text-gainsboro ">
         FUN WINDOW
       </div>
 
@@ -48,8 +57,45 @@ function Funwindow() {
         gaze, enhancing user engagement and providing a unique interactive
         experience.
       </div>
-
       </div>
+      </main>
+
+      
+      
+      
+
+     
+    </div>
+
+  
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       <div className="absolute bottom-[0] flex justify-between   bg-gray-500 w-full  opacity-50 overflow-hidden text-left text-xs text-whitesmoke font-inter">
 
