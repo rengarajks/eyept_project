@@ -81,7 +81,7 @@ const Funwindowfinalpage = () => {
           
         </div>
 
-        <div id="cursor" className="z-[40]"></div>
+        <div id="cursor" className="z-[40] backdrop-blur-sm bg-white/30"></div>
     
 
 

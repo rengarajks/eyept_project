@@ -25,12 +25,12 @@ body {
 
 
 #cursor {
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  background-color:green;
+  position: fixed;
+  width: 105px;
+  height: 105px;
+
   border-radius: 50%;
-  pointer-events: none; /* Make sure cursor doesn't interfere with pointer events */
+  pointer-events: none; 
   transition: transform 0.2s ease;
-   /* Add transition for smooth movement */
+
 }
